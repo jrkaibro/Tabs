@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.1</Version>
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles>
+    <Directory>icon</Directory>
+    <Directory>js</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>KnetTabsRender.js</RuntimeRender>
+  <GxResources>KneTabs.xpz</GxResources>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <ObjClass>KnetTabs</ObjClass>
+  <Description>KnetTabs</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>KnetTabs</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>js\tabs_object.js</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>KnetTabs</Name>
+  </Constructor>
+  <PropertiesDefinition>KnetTabsProperties.xml</PropertiesDefinition>
+  <DesignRender>KnetTabsRender.xsl</DesignRender>
+  <ToolboxIcon>icon/Knet.ico</ToolboxIcon>
+  <ControlType />
+  <Categories>
+    <Category>Knet App</Category>
+  </Categories>
+  <Events>
+    <Event>OnClick</Event>
+  </Events>
+  <Methods>
+	<Method>
+      <ReturnType />
+      <Signature>ClosePopUp()</Signature>
+      <Name>ClosePopUp</Name>
+      <Namespace />
+      <FullName>ClosePopUp</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Character</Parameter>
+      </Parameters>
+      <Signature>tabs.goToTab(Tab:Character)</Signature>
+      <Name>goToTab</Name>
+      <Namespace />
+      <FullName>goToTab</FullName>
+    </Method>
+	<Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Character</Parameter>
+		<Parameter>Character</Parameter>
+      </Parameters>
+      <Signature>tabs.ocultarTab(tabId:Character, tabIdAtiva:Character)</Signature>
+      <Name>ocultarTab</Name>
+      <Namespace />
+      <FullName>ocultarTab</FullName>
+    </Method>
+	<Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Character</Parameter>
+      </Parameters>
+      <Signature>tabs.mostrarTab(tabId:Character)</Signature>
+      <Name>mostrarTab</Name>
+      <Namespace />
+      <FullName>mostrarTab</FullName>
+    </Method>
+	<Method>
+      <ReturnType />
+      <Signature>tabs.OcultarTabs()</Signature>
+      <Name>OcultarTabs</Name>
+      <Namespace />
+      <FullName>OcultarTabs</FullName>
+    </Method>
+	<Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Character</Parameter>
+      </Parameters>
+      <Signature>tabs.Hidden(Tab:Character)</Signature>
+      <Name>Hidden</Name>
+      <Namespace />
+      <FullName>Hidden</FullName>
+    </Method>
+  </Methods>
+  <Actions />
+  <IsPublic>true</IsPublic>
+</ControlDefinition>
